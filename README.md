@@ -5,11 +5,15 @@
 ![device](device.png)  ![stand](overview.png) 
 
 A small 3D-printed setup showing the non intuitive behaviour of polarized light.  
-To build this project you will need a 3d printer and some cheap polarizing sunglasses.
+
+# What you need
+
+To build this project you will need a 3D printer and some cheap polarizing sunglasses.
 
 ![glasses](glasses.png)
 
-These glasses are made up from 4 of the ~45mm filters that we need.  
+These glasses each contain 4 of the ~45mm filters that we need.  
+We only need 3 for this print, so we have one spare.
 
 You can find these for example at https://aliexpress.com/item/1005011665620962.html
 
@@ -24,7 +28,7 @@ After printing the `stl` files and fitting the filters, the filter angles should
 ![align](calibrate.png)     
 
 This is done by rotating the individual filters in the holders until all three are aligned.      
-The calibration is complete when the maximum amount of light is passing all 3 filters with the number tabs aligned.    
+The alignment is complete when the maximum amount of light is passing all 3 filters with the number tabs aligned as shown above.    
 
 Take note that there is a front and backside for the filters, so if not all filters are in the same orientation you might get unexpected results.
 
@@ -40,6 +44,13 @@ The fun part is that the filters behave as successive transformations of the pol
 Their composition is **not commutative**: `1 × 2 × 3` is not generally the same as `1 × 3 × 2`.
 
 ![the trick](trick.png)
+
+# More about polarization
+
+[Wikipedia: Polarization_(waves)](https://en.wikipedia.org/wiki/Polarization_(waves))
+
+[Wikipedia: Polarization state](https://en.wikipedia.org/wiki/Polarization_(waves)#Polarization_state)
+
 ---
 
 ## Files
