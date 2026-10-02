@@ -9,7 +9,7 @@ To build this project you will need a 3d printer and some cheap polarizing sungl
 
 ![glasses](glasses.png)
 
-These glasses contain the 44mm filters that we need.  
+These glasses contain the ~45mm filters that we need.  
 
 ## The setup
   
