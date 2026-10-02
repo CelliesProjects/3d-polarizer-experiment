@@ -9,15 +9,19 @@ To build this project you will need a 3d printer and some cheap polarizing sungl
 
 ![glasses](glasses.png)
 
-These glasses contain the ~45mm filters that we need.  
+These glasses are made up from 4 of the ~45mm filters that we need.  
 
-## The setup
-  
-### Calibrating the filters   
-  
-After printing the `stl` files and fitting the filters, the filter angles should be calibrated relative to each other.  
+You can find these for example at https://aliexpress.com/item/1005011665620962.html
 
-![calibrate](calibrate.png)     
+## Setup
+  
+### Aligning the filters
+
+![filters](filters.png)
+  
+After printing the `stl` files and fitting the filters, the filter angles should be aligned relative to each other.  
+
+![align](calibrate.png)     
 
 This is done by rotating the individual filters in the holders until all three are aligned.      
 The calibration is complete when the maximum amount of light is passing all 3 filters with the number tabs aligned.    
@@ -27,7 +31,6 @@ Take note that there is a front and backside for the filters, so if not all filt
 ## The experiment
 
 The holders have fixed reference orientations of **0°, 45° and 90°**, allowing the filters to be arranged and compared mechanically.  
-
 
 - **0° + 90°** → dark
 - **0° + 45° + 90°** → transmission
