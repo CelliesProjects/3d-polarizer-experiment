@@ -1,29 +1,48 @@
-# 3D Printed Polarizer Experiment
+# 3D Printed Polarizer Experiment  
 
-A small 3D-printed experiment using three polarizing filters.
+## What is this?
 
-The holders have fixed reference orientations of **0°, 45° and 90°**, allowing the filters to be arranged and compared mechanically.
+![device](device.png)  ![stand](overview.png) 
+
+A small 3D-printed setup showing the non intuitive behaviour of polarized light.  
+To build this project you will need a 3d printer and some cheap polarizing sunglasses.
+
+![glasses](glasses.png)
+
+These glasses contain the 44mm filters that we need.  
+
+## The setup
+  
+### Calibrating the filters   
+  
+After printing the `stl` files and fitting the filters, the filter angles should be calibrated relative to each other.  
+
+![calibrate](calibrate.png)     
+
+This is done by rotating the individual filters in the holders until all three are aligned.      
+The calibration is complete when the maximum amount of light is passing all 3 filters with the number tabs aligned.    
+
+Take note that there is a front and backside for the filters, so if not all filters are in the same orientation you might get unexpected results.
 
 ## The experiment
 
-First align the filters for maximum transmission.
+The holders have fixed reference orientations of **0°, 45° and 90°**, allowing the filters to be arranged and compared mechanically.  
 
-Then try:
 
 - **0° + 90°** → dark
 - **0° + 90° + 45°** → transmission
 - Change the order of the filters → the result can change.
 
-The fun part is that the filters behave as successive transformations of the polarization state. Their composition is **not commutative**: `1 × 2 × 3` is not generally the same as `1 × 3 × 2`.
+The fun part is that the filters behave as successive transformations of the polarization state.    
+Their composition is **not commutative**: `1 × 2 × 3` is not generally the same as `1 × 3 × 2`.
 
-The filters used here came from cheap polarized sunglasses.
+![the trick](trick.png)
+---
 
 ## Files
 
-The holders and base are provided as printable 3D files, together with the source CAD files.
+The holders and base are provided as printable 3D files.
 
 ## License
 
-CAD and print files: **CC BY 4.0**
-
-See [LICENSE](LICENSE) for details.
+**CC BY 4.0**
