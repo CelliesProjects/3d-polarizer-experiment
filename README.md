@@ -30,7 +30,7 @@ The holders have fixed reference orientations of **0°, 45° and 90°**, allowin
 
 
 - **0° + 90°** → dark
-- **0° + 90° + 45°** → transmission
+- **0° + 45° + 90°** → transmission
 - Change the order of the filters → the result can change.
 
 The fun part is that the filters behave as successive transformations of the polarization state.    
